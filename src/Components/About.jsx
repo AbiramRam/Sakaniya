@@ -2,7 +2,7 @@ import aboutImg from "../assets/AboutAbi.jpg";
 import { ABOUT_TEXT} from "../constants"; 
 const About = () => {
     return (
-    <div className="mt-20 border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-900 pb-4">
         <h1 className="my-20 text-center text-4xl">
             About
             <span className="text-neutral-500"> Me</span> 
@@ -15,7 +15,7 @@ const About = () => {
                 </div>
         
                 <div className="w-full lg:w-1/2">
-                    <div className="flex justify-center lg:justify-start">
+                    <div className="flex justify-center text-1xl font-medium lg:justify-start">
                         <p>{ABOUT_TEXT}</p>
                     </div>
                 </div>
