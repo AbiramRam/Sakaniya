@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. I have better knowledge in machine learning, deep learning and data analytical skills.  My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -25,26 +25,19 @@ export const EXPERIENCES = [
   {
     year: "2021 - 2022",
     role: "Full Stack Developer",
-    company: "Facebook",
+    company: "Intern army",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    technologies: ["Python", "Django", "Node.js", "Postgres"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Tea quality predictor",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Deep learning model to find the type and quality of the tea powder types produced in Sri Lanka with own data collection",
+    technologies: ["Python", "Sci-Kit", "pandas", "Google Colab"],
   },
   {
     title: "Task Management App",
@@ -58,7 +51,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["React", "Tailwind", "Vite"],
   },
   {
     title: "Blogging Platform",
