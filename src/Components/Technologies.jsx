@@ -7,13 +7,17 @@ import { DiPhp } from "react-icons/di";
 import { FaJava } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa"; 
 import { FaChartBar } from "react-icons/fa";
+import { motion } from "motion/react"
 
 const Technologies = () => {
     return (
         <div className="border-b border-neutral-700 pb-24">
-            <h1 className="my-20 text-center text-4xl">
+            <motion.h1 
+                whileInView={{opacity:1, y:0}}
+                initial={{opacity: 1,y:-100}}
+                className="my-20 text-center text-4xl">
                 Technologies
-            </h1>
+            </motion.h1>
 
             <div className="flex flex-wrap items-center justify-center gap-4">
                 <div className="rounded-2xl border-4 border-neutral-100 p-4">
