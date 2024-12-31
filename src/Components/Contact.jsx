@@ -8,6 +8,8 @@ const Contact = () => {
                     <p className="my-4 text-2xl">{CONTACT.address}</p>
                     <p className="my-4 text-2xl">{CONTACT.phoneNo}</p>
                     <p className="my-4 text-2xl">{CONTACT.email}</p>
+                    <p className="my-4 text-2xl">{CONTACT.linkedin}</p>
+                    <p className="my-4 text-2xl">{CONTACT.github}</p>
                 </div>
         </div>
     );

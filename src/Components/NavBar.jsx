@@ -12,10 +12,19 @@ const NavBar = () => {
           </div>
 
           <div className="m-8 flex items-right justify-between gap-10 text-2xl">
-              <FaLinkedin/>
-              <FaFacebook/>
-              <FaGithub/>
-              <FaInstagram/>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <p><FaLinkedin/></p>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+            <p><FaFacebook/></p>
+            </a>
+            <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer">
+              <p><FaGithub/></p>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+              <p><FaInstagram/></p>
+            </a>
+              
           </div>
       </nav>
   );
