@@ -1,10 +1,9 @@
-import project1 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. I have better knowledge in machine learning, deep learning and data analytical skills.  My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
-
-export const ABOUT_TEXT = `I am an enthusiastic full-stack developer with a strong foundation in computer science. Currently pursuing my degree at Eastern University, Sri Lanka, I specialize in building responsive and user-friendly applications. My journey includes practical experience gained from internships at CodeAlpha and Intern Army, where I worked on projects involving web development and artificial intelligence. I am committed to continuous learning and applying emerging technologies to solve real-world problems. Outside of coding, I enjoy collaborating on creative projects and contributing to open-source initiatives.`;
+export const HERO_CONTENT = "I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. I have better knowledge in machine learning, deep learning and data analytical skills.  My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.";
+export const ABOUT_TEXT = `I am an enthusiastic full-stack developer with a strong foundation in computer science. Currently pursuing my degree at Eastern University, Sri Lanka, I specialize in building responsive and user-friendly applications. My journey includes practical experience gained from internships at CodeAlpha and Intern Army, where I worked on projects involving web development and artificial intelligence. I am committed to continuous learning and applying emerging technologies to solve real-world problems. Outside of coding, I enjoy collaborating on creative projects and contributing to open-source initiatives.`;
 
 export const EXPERIENCES = [
   {
