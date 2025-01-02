@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.png";
+import project1 from "C:/Users/abira/OneDrive/Desktop/RESEARCH/Sakani/Portfolio/src/assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 
